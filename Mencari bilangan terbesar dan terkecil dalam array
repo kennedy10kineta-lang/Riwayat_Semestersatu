@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int bilangan_arr[5]{90, 300, 21, 1, 16};
+
+int main(){
+    int terbesar = bilangan_arr[0];
+    int terkecil = bilangan_arr[0];
+    
+    for(int i=0;i<5;i++){
+        if(terbesar<bilangan_arr[i]){
+            terbesar = bilangan_arr[i];
+        }
+        if(terkecil>bilangan_arr[i]){
+            terkecil=bilangan_arr[i];
+        }
+    }
+    
+    cout << "Bilangan terbesar dalam array ini adalah " << terbesar << endl;
+    cout << "Bilangan terkecil dalam array ini adalah " << terkecil << endl;
+    
+    return 0;
+}
