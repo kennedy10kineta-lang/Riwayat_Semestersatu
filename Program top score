@@ -1,0 +1,20 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main();
+void registration(){
+ofstream myFile, accList;
+string userReg;
+system("cls");
+cout << "-----LOGIN-----" << endl;
+cout << "Enter Usrname : ";
+cin >> userReg;
+cout << endl;
+myFile.open(userReg +".txt");
+myFile << 0;
+myFile.close();
+accList.open("ListAccount.txt", ios :: app);
+accList << userReg << endl;
+system("cls");
+cout << "Registration Seccessfull" << endl;
+main();
