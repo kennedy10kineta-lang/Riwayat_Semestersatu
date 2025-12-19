@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+void tampil(){
+cout << "Terimakasih Telah Berkunjung!" << endl;
+cout << "Silahkan Datang Kembali ^^ " << endl;
+
+}
+
+int main(){
+tampil();
+
+return 0;
+}
