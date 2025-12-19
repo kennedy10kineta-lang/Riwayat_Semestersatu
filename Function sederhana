@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int kuadrat(int x){
+    return x * x;
+}
+
+int kubik(int x){
+    return x * x * x;
+}
+
+int faktorial(int x){
+    int hasil=1;
+    for(int i=1;i<=x;i++){
+       hasil = hasil*i;
+    }
+        return hasil;
+    }
+
+int main(){
+    int x;
+    
+    cout << "Masukan angka : ";
+    cin >> x;
+    cout << x << " Kuadrat  = " << kuadrat(x) << endl;
+    cout << x << " Kubik = " << kubik(x) << endl;
+    cout << x << "Faktorial = " << faktorial(x) << endl;
+    
+    return 0;
+}
