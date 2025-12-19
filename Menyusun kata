@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string kata1, kata2, kata3;
+
+    // pakai getline supaya spasi juga kebaca
+    getline(cin, kata1);
+    getline(cin, kata2);
+    getline(cin, kata3);
+
+    // cari panjang kata (semua sama panjang)
+    int panjang = kata1.length();
+
+    // cetak vertikal
+    for (int i = 0; i < panjang; i++) {
+        cout << kata1[i] << " " << kata2[i] << " " << kata3[i] << endl;
+    }
+
+    return 0;
+}
+
