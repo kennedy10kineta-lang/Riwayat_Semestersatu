@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+  // variabel
+  int a = 10;
+    int b = 4;
+   
+  // operasi dasar
+  int jumlah = a + b;
+  int kurang = a - b;
+  int kali = a * b;
+  float bagi = (float)a / b;
+    int sisa = a % b;
+  
+  //outpu
+  cout << "Nilai a" << a << endl;
+  cout << "Nilai b" << b << endl;
+  cout << "Hasil penjumlahan" << jumlah << endl;
+  cout << "Hasil pengurangan" << kurang << endl;
+  cout << "Hasil perkalian" << kali << endl;
+  cout << "Hasil pembagian" << bagi << endl;
+  cout << "Sisa bagi" << sisa << endl;
+}
